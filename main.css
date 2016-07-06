@@ -1,0 +1,91 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+  background-color: #D3D3D3;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+a {
+  background-color: #999;
+  color: white;
+  display: block;
+  width: 182px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.footer {
+  /* El footer y el conteiner son dos clases
+  diferentes por lo que se encuentran separadas 
+  y es necesario  dar formato a cada una de ellas*/
+  position: absolute;
+  padding: 20px 1em;
+  padding-top: 100px;
+  padding-right: 30em;
+  background-color: #D3D3D3;
+}
+
+textarea{
+  resize: none;/*Evita que se amplie la ventana 
+  dejandolo con un tamaño determinado*/
+  margin-top: 1em;
+}
+
+#registration {
+  position: relative;/*Es necesario mover de la posicion
+  predeterminada del browser para poderla centrar*/
+  right: -110px;
+  display: block;
+  width: 60%;
+  background-color:   #A9A9A9;
+  /*border: 1px solid black;*/
+  padding: 2em;
+  border-radius: 10px;
+}
+
+#registration_name {
+  width: 40%;
+}
+
+#registration_email {
+  width: 40%;
+  float: right;
+  padding-right: 1em;
+}
+
+#phone {
+  width: 100%;
+  float: center;
+  margin-top: 1em;
+}
+
+#registration_btn {
+  width: 100%;
+  float: center;
+  margin-top: 1em;
+  background-color: #6495ED;
+  box-shadow: #F0F8FF;
+}
